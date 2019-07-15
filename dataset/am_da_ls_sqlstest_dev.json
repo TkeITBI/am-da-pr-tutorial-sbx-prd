@@ -7,9 +7,6 @@
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
-		"schema": [],
-		"typeProperties": {
-			"tableName": "[ARC].[Dim_Branch]"
-		}
+		"schema": []
 	}
 }
