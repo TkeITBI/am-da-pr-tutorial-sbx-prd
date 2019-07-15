@@ -17,13 +17,22 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
-						"sqlReaderQuery": "select count(*) from "
+						"sqlReaderQuery": "select count(*) from [EDW].[Dim_Branch]"
+					},
+					"sink": {
+						"type": "FileSystemSink"
 					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "am_da_ls_sqlstest_dev",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "FileShare1",
 						"type": "DatasetReference"
 					}
 				]
