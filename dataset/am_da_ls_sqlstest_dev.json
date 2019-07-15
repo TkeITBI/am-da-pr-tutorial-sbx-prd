@@ -1,0 +1,15 @@
+{
+	"name": "am_da_ls_sqlstest_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "am_da_ls_sqlstest_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "[ARC].[Dim_Branch]"
+		}
+	}
+}
