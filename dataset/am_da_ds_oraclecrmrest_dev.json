@@ -1,0 +1,12 @@
+{
+	"name": "am_da_ds_oraclecrmrest_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "am_da_ls_oraclecrm_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

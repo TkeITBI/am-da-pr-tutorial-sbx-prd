@@ -1,0 +1,16 @@
+{
+	"name": "am_da_ds_sqlmdcovm44crm_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "am_da_ls_sqlmdcovm44crm_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AccountCustom_Ben"
+		}
+	}
+}
