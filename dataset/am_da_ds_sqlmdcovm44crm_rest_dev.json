@@ -1,5 +1,5 @@
 {
-	"name": "am_da_ds_sqlmdcovm44crm_dev",
+	"name": "am_da_ds_sqlmdcovm44crm_rest_dev",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "am_da_ls_sqlmdcovm44crm_dev",
@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "AccountCustom_Ben"
+			"table": "AccountCustom_rest"
 		}
 	}
 }
