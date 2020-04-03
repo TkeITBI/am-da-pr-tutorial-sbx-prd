@@ -1,0 +1,10 @@
+{
+	"name": "am_da_ls_kv_devtest",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://am-da-kv-devtest-dev.vault.azure.net/"
+		}
+	}
+}
