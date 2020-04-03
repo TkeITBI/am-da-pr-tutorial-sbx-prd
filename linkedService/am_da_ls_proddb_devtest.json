@@ -1,0 +1,17 @@
+{
+	"name": "am_da_ls_proddb_devtest",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "am_da_ls_kv_devtest",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "am-da-s-proddb-AppDataSyAdmin-devtest"
+			}
+		}
+	}
+}
