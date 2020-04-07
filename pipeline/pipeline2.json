@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "cmd /c echo 1 2 3 4",
+					"command": "cmd /c cd c:\\python\ncmd /c dir",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
